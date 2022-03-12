@@ -25,6 +25,8 @@ public class Main {
         UserDao userDao = new UserDao();
         UserService userService = new UserService();
 
+        userService.addId(user1);
+        System.out.println(users[0].getName());
 
 
 
