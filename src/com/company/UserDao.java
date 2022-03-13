@@ -1,13 +1,18 @@
 package com.company;
 
 public class UserDao {
-    private User[] users = new User[20];
+    static User[] users = new User [20];
 
-    public User[] getUsers() {
+
+
+    User [] getUser() {
         return users;
     }
 
-    public void setUsers(User[] users) {
+    public void setUser (User[] users) {
         this.users = users;
     }
+
+
+
 }
